@@ -2,9 +2,11 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div>
-            Navbar
-        </div>
+        <nav>
+            <div>
+                <img src="/images/logo.svg" />
+            </div>
+        </nav>
     );
 };
 
