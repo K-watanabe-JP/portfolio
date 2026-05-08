@@ -1,5 +1,5 @@
 import { INITIAL_Z_INDEX, WINDOW_CONFIG } from "#constants";
-import { immer } from "immer/middleware/immer";
+import { immer } from "zustand/middleware/immer";
 import { create } from "zustand";
 
 const useWindowStore = create(
